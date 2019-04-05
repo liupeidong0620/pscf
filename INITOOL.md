@@ -1,7 +1,7 @@
 ### pscf ini - Instructions for use
 
 ```shell
-$ ./pscf ini -h
+$ ./releases/pscf ini -h
 NAME:
    pscf ini - Provides tools for set, delete, and get operations for section or key in INI format.
 

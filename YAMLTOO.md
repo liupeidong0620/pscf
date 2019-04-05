@@ -1,7 +1,7 @@
 ## pscf yaml - Instructions for use
 
 ```
-$ ./pscf yaml -h
+$ ./releases/pscf yaml -h
 NAME:
    pscf yaml - Provides tools for set, delete, and get operations for a node in YAML format.
 
@@ -17,7 +17,7 @@ OPTIONS:
    --get value             Get the value of the node in the configuration file.(--get node)
    --set value             Set the value of the node and add a new node if the node does not exist.(--set node=value)
    --verbose, -v           Debug mode.(--verbose, -v)
-   --toString value        Force some tags into strings.(--toString "yes,no")
+   --tostr value           Force some tags into strings.(--tostr "yes,no")
    --getkeys value         Get the keys value of the node in the configuration file.(--getkeys node)
    --comment               Load comment enable.(--comment)
 ```
@@ -168,7 +168,7 @@ job
 skill
 ```
 
-### --toString
+### --tostr
 data:
 ```
 $ cat test_3.yaml
@@ -183,10 +183,10 @@ true
 $ cat test_3.yaml | ./pscf yaml --get ipv6 -c -
 false
 
-$ cat test_3.yaml | ./pscf yaml --get ipv4 -c - --toString yes,no
+$ cat test_3.yaml | ./pscf yaml --get ipv4 -c - --tostr yes,no
 yes
 
-$ cat test_3.yaml | ./pscf yaml --get ipv6 -c - --toString yes,no
+$ cat test_3.yaml | ./pscf yaml --get ipv6 -c - --tostr yes,no
 no
 ```
 

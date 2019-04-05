@@ -54,7 +54,7 @@ COPYRIGHT:
 ```
 ### Example
 
-* pscf yaml - YAMLTOOL.md
-* pscf json - JSONTOOL.md
-* pscf ini  - INITOOL.md
+* pscf yaml - [YAMLTOOL.md](https://github.com/liupeidong0620/pscf/blob/master/INITOOL.md)
+* pscf json - [JSONTOOL.md](https://github.com/liupeidong0620/pscf/blob/master/JSONTOOL.md)
+* pscf ini  - [INITOOL.md](https://github.com/liupeidong0620/pscf/blob/master/YAMLTOO.md)
 

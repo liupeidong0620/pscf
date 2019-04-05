@@ -1,7 +1,7 @@
 ## pscf json Instructions for use
 
 ```shell
-$ ./pscf json -h
+$ ./releases/pscf json -h
 NAME:
    pscf json - Provides tools for set, delete, and get operations for a node in JSON format.
 
