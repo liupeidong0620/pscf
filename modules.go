@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	iniset "pscf/ini"
-	jsonset "pscf/json"
-	yamlset "pscf/yaml"
+	iniset "github.com/liupeidong0620/pscf/ini"
+	jsonset "github.com/liupeidong0620/pscf/json"
+	yamlset "github.com/liupeidong0620/pscf/yaml"
 )
 
 type yamlAttribute struct {

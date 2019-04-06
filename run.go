@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/urfave/cli"
 
-	pscfLog "pscf/log"
+	pscfLog "github.com/liupeidong0620/pscf/log"
 )
 
 func run(c *cli.Context, mod string, args []string) error {

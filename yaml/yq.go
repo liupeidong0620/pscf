@@ -11,8 +11,8 @@ import (
 
 	errors "github.com/pkg/errors"
 
+	pscfLog "github.com/liupeidong0620/pscf/log"
 	yaml "github.com/liupeidong0620/yaml"
-	pscfLog "pscf/log"
 )
 
 var trimOutput = true
