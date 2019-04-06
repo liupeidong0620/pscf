@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
+	pscfLog "github.com/liupeidong0620/pscf/log"
 	yaml "github.com/liupeidong0620/yaml"
-	pscfLog "pscf/log"
 )
 
 func entryInSlice(context yaml.MapSlice, key interface{}) *yaml.MapItem {
